@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Tic Tac Toe</title>
+
+        <!-- Icon -->
+        <link rel="shortcut icon" href="nav-icon.png">
+
+        <!-- Custom CSS File Link -->
+        <link rel="stylesheet" href="style.css"/>
+
+        <!-- Custom CSS File Link -->
+        <script src="script.js" defer type="module"></script>
+    </head>
+
+    <body>
+
+        <!---------- BOARD START ---------->
+        <div class="board" data-board>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <!----------- BOARD END ----------->
+
+        <!---------- MESSAGE START ---------->
+        <div data-messageContainer class="messageContainer">
+            <div class="message" data-message></div>
+            <button data-restartButton class="restartButton">Restart</button>
+        </div>
+        <!----------- MESSAGE END ----------->
+
+        <!---------- SCOREBOARD START ---------->
+        <div class="scoreboard">
+            <table>
+                <tr>
+                    <th>X</th>
+                    <th>O</th>
+                </tr>
+                <tr>
+                    <td class="x"></td>
+                    <td class="o"></td>
+                </tr>
+            </table>
+        </div>
+        <!----------- SCOREBOARD END ----------->
+
+    </body>
+
+</html>
